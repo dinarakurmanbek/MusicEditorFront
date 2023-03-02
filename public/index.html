@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="canonical" href="https://signal.vercel.app/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://signal.vercel.app/"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://signal.vercel.app/?lang=en"
+    />
+    <link
+      rel="alternate"
+      hreflang="ja"
+      href="https://signal.vercel.app/?lang=ja"
+    />
+    <link
+      rel="alternate"
+      hreflang="zh"
+      href="https://signal.vercel.app/?lang=zh"
+    />
+
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:title" content="signal" />
+    <meta
+      property="og:description"
+      content="Fully Open-sourced Online MIDI Editor"
+    />
+    <meta
+      property="og:image"
+      content="https://signal.vercel.app/twitter-card.png"
+    />
+    <title data-i18n="landing-title">signal - Online MIDI Editor</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179088031-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-179088031-1")
+    </script>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <a href="/" id="title"><img src="logo.svg" /></a>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li>
+            <a href="edit" data-i18n="launch">Project</a>
+          </li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#tutorial">Tutorial</a></li>
+        </ul>
+        <a
+          href="https://github.com/MertUzeken/Web-Anwendungen-Projekt"
+          id="github-link"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div class="content">
+        <div class="text">
+          <h1 data-i18n="app-intro">
+            Open source cross-platform audio software
+          </h1>
+          <!-- <p class="description" data-i18n="app-desc">
+            Start making music without installing anything
+          </p> -->
+          <a href="edit" id="launch-button" data-i18n="launch">Get started</a>
+          <!-- <p class="platform" data-i18n="platform">
+            Supported desktop browsers: Google Chrome / Firefox / Safari
+          </p> -->
+        </div>
+        <div class="image">
+          <img src="screenshot.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="home">
+      <div class="content">
+        <div class="left">
+          <div style="margin-bottom: 2rem;">
+            <h3 data-i18n="features">Home</h3>
+            <h4 style="margin: 0; font-weight: 300;">
+              MusicEditor is an easy-to-use multitrack audio editor and recorder
+              for Windows, macOS, GNU/Linux and other operating systems.
+            </h5>
+          </div>
+          
+
+          <div class="elem" style="background: rgba(0, 0, 0, 0.5)">
+            <div class="icon" style="background: white">
+              <img src="/task.svg" style="width: 1.5rem" />
+            </div>
+            <div class="title" data-i18n="feature-midi-file">Main Task</div>
+            <div class="description" data-i18n="feature-midi-file-description">
+              Our MusicEditor app is to create high quality, intuitive and
+              powerful software. We value diligence, creativity and innovation.
+            </div>
+          </div>
+
+          <div class="elem" style="background: rgba(0, 0, 0, 0.5)">
+            <div class="icon" style="background: white">
+              <img src="/project.svg" />
+            </div>
+            <div class="title" data-i18n="feature-gm-module">Project</div>
+            <div class="description" data-i18n="feature-gm-module-description">
+              MusicEditor allows you to record and edit music, vocals and other
+              sounds. When editing audio files you can cut, copy and paste parts
+              of recordings and, if necessary, add effects such as echo, gain
+              and noise reduction.
+            </div>
+          </div>
+
+          <div class="elem" style="background: rgba(0, 0, 0, 0.5)">
+            <div class="icon" style="background: white">
+              <img src="/tutorial.svg" />
+            </div>
+            <div class="title" data-i18n="feature-export-audio">Tutorial</div>
+            <div
+              class="description"
+              data-i18n="feature-export-audio-description"
+            >
+              Tutorials for MusicEditor
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="content">
+        <div class="left">
+          <h3 data-i18n="features">Features</h3>
+          <div class="grids">
+            <div class="feature" style="background: #3c2fd740">
+              <div style="display: flex; flex-direction: column; justify-content: center;">
+                <div class="icon" style="background: #3c2fd7">
+                  <img src="/add.svg" style="width: 2rem" />
+                </div>
+                <div class="title" data-i18n="feature-midi-file">
+                  Add Row
+                </div>
+              </div>
+              
+            </div>
+  
+            <div class="feature" style="background: #91322c73">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #e7372c">
+                <img src="/play.svg" />
+              </div>
+              <div class="title" data-i18n="feature-gm-module">
+                Play
+              </div>
+              </div>
+            </div>
+  
+            <div class="feature" style="background: #3c2fd740">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #3c2fd7">
+                <img src="/pause.svg" />
+              </div>
+              <div class="title" data-i18n="feature-export-audio">
+                Pause
+              </div>
+              </div>
+            </div>
+  
+            <div class="feature" style="background: #249f9f2f">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #249f9f">
+                <img src="/stop.svg" />
+              </div>
+              <div class="title" data-i18n="feature-midi-io">
+                Stop
+              </div>
+              </div>
+            </div>
+  
+            <div class="feature" style="background: #3d2fd727">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #3c2fd7">
+                <img src="/save.svg" style="rotate: 180deg;" />
+              </div>
+              <div class="title" data-i18n="feature-time-signature">
+                Save
+              </div>
+              </div>
+            </div>
+  
+            <div class="feature" style="background: #ff99002f">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #ff9900">
+                <img src="/save.svg" />
+              </div>
+              <div class="title" data-i18n="feature-pwa">Upload</div>
+            </div>
+            </div>
+
+            <div class="feature" style="background: #ff99002f">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #ff9900">
+                <img src="/change.svg" />
+              </div>
+              <div class="title" data-i18n="feature-pwa">Change</div>
+            </div>
+            </div>
+
+            <div class="feature" style="background: #91322c73">
+              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div class="icon" style="background: #e7372c">
+                <img src="/remove.svg" />
+              </div>
+              <div class="title" data-i18n="feature-pwa">Remove</div>
+            </div>
+            </div>
+            <div class="feature" style="background: #249f9f2f">
+              <div style="display: flex; flex-direction: column; justify-content: center;">
+              <div class="icon" style="background: #249f9f">
+                <img src="/row.svg" />
+              </div>
+              <div class="title" data-i18n="feature-midi-io">
+                Add Column
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsor">
+      <div class="content">
+        <h3 data-i18n="become-sponsor" id="tutorial">Tutorial</h3>
+        <p class="sponsor-intro" data-i18n="sponsor-intro">
+          Here you can find useful online tutorial videos to make getting
+          started with MusicEditor easier.
+        </p>
+      </div>
+    </section>
+
+    <section id="support">
+      <div class="content">
+        <h3 data-i18n="support">Impressum</h3>
+        <ul class="impressum">
+          <li>MusicEditor</li>
+          <li>Max Mustermann</li>
+          <li>Nibelungenstraße 1</li>
+          <li>63128 Dietzenbach</li>
+          <li>E-mail: musiceditor.de</li>
+        </ul>
+
+        <div class="support-row">
+          <a
+            class="external-link"
+            href="https://github.com/MertUzeken/Web-Anwendungen-Projekt"
+          >
+            <img src="/github-icon.svg" />
+            MusicEditor
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
